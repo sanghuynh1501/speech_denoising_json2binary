@@ -40,7 +40,7 @@ func main() {
 
 	data := Load()
 
-	dataFile, err_file_in := os.Create("integerdata.gob")
+	dataFile, err_file_in := os.Create("weights.gob")
 	if err_file_in != nil {
 		fmt.Println(err_file_in)
 		os.Exit(1)
