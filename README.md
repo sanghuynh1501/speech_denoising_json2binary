@@ -1,2 +1,5 @@
-# json2binary
-# speech_denoising_json2binary
+### Convert weights.json to weights.gob:
+run 
+```
+go run main.go
+```
